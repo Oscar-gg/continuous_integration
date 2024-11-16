@@ -6,6 +6,7 @@ target_link_libraries(
     ${EXECUTABLE_NAME}
     PRIVATE "LibFoo"
             "LibBar"
+            "LibEvidencia"
             nlohmann_json::nlohmann_json
             fmt::fmt
             spdlog::spdlog

@@ -158,6 +158,6 @@ install(
     RUNTIME DESTINATION bin)
 
 install(
-    TARGETS "LibFoo" "LibBar"
+    TARGETS "LibFoo" "LibBar" "LibEvidencia"
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib)
