@@ -94,6 +94,7 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build . --config Release --target main
 cd app
 ./main
+cd ../..
 ```
 
 -   Unit testing
